@@ -26,7 +26,8 @@ pip install -r Comfyui_wan_api/requirements.txt
 ```
 
 ## 初始配置
-### 1. 创建 GitHub 仓库 方法一：自动配置
+### 1. 创建 GitHub 图床
+方法一：自动配置
 1. 运行自动配置脚本：
 2. 配置步骤：
    - 输入 GitHub 邮箱
