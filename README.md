@@ -1,9 +1,9 @@
 
 # ComfyUI WanAPI 节点 / ComfyUI WanAPI Nodes
 
-白嫖通义万相 wan2.1模型，这是一个批量调用wan2.1 api的实现，给你的短剧生产提供批量解决方案。
+[English Version](README_EN.md)
 
-Free trial of Tongyi Wanxiang wan2.1 model, this is a batch implementation of wan2.1 API, providing batch processing for your short video production.
+白嫖 通义万相 wan2.1模型，这是一个批量调用wanx2.1 api的实现，给你的短剧生产提供批量解决方案。
 
 ## 功能特点 / Features
 
