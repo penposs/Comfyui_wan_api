@@ -1,98 +1,7 @@
 {
-  "last_node_id": 7,
-  "last_link_id": 6,
+  "last_node_id": 10,
+  "last_link_id": 13,
   "nodes": [
-    {
-      "id": 3,
-      "type": "easy showAnything",
-      "pos": [
-        -1191.599365234375,
-        2210.471435546875
-      ],
-      "size": [
-        210,
-        76
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "anything",
-          "type": "*",
-          "link": 2,
-          "shape": 7,
-          "label": "输入任何"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "output",
-          "type": "*",
-          "links": [
-            4
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "easy showAnything"
-      },
-      "widgets_values": [
-        "https://raw.githubusercontent.com/penposs/image/main/images/wanx_1740562663.jpg"
-      ]
-    },
-    {
-      "id": 5,
-      "type": "WanAPIImageToVideo",
-      "pos": [
-        -877.1105346679688,
-        2040.0242919921875
-      ],
-      "size": [
-        400,
-        226
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image_url",
-          "type": "STRING",
-          "link": 4,
-          "widget": {
-            "name": "image_url"
-          },
-          "label": "image_url"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "video_url",
-          "type": "STRING",
-          "links": [
-            5,
-            6
-          ],
-          "slot_index": 0,
-          "label": "video_url"
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "WanAPIImageToVideo"
-      },
-      "widgets_values": [
-        "",
-        "wanx2.1-i2v-plus",
-        5,
-        "",
-        "动漫风格,镜头环绕，女人跳起挥剑，剑光闪耀，黑雾傀儡碎裂成无数碎片，碎片缓缓飘落，闪闪发光，头发衣服飘动。",
-        896448203,
-        "randomize",
-        "False"
-      ]
-    },
     {
       "id": 6,
       "type": "ShowText|pysssss",
@@ -105,13 +14,13 @@
         476
       ],
       "flags": {},
-      "order": 4,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
           "name": "text",
           "type": "STRING",
-          "link": 5,
+          "link": 12,
           "widget": {
             "name": "text"
           },
@@ -147,7 +56,7 @@
         238
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -167,7 +76,7 @@
         {
           "name": "video",
           "type": "STRING",
-          "link": 6,
+          "link": 11,
           "widget": {
             "name": "video"
           },
@@ -242,10 +151,10 @@
       ],
       "size": [
         247.27825927734375,
-        657.9598999023438
+        238
       ],
       "flags": {},
-      "order": 6,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -293,9 +202,6 @@
         "loop_count": 0,
         "filename_prefix": "wan/test",
         "format": "video/h264-mp4",
-        "pix_fmt": "yuv420p",
-        "crf": 19,
-        "save_metadata": true,
         "pingpong": false,
         "save_output": true,
         "videopreview": {
@@ -334,7 +240,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            1
+            8
           ],
           "slot_index": 0,
           "label": "图像"
@@ -355,14 +261,94 @@
       ]
     },
     {
-      "id": 2,
-      "type": "WanAPIImageUploader",
+      "id": 10,
+      "type": "ShowText|pysssss",
       "pos": [
-        -1187.8138427734375,
-        1991.5435791015625
+        -469.401611328125,
+        2329.96533203125
       ],
       "size": [
-        231.67236328125,
+        315,
+        476
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 13,
+          "widget": {
+            "name": "text"
+          },
+          "label": "文本"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6,
+          "label": "字符串"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "https://dashscope-result-sh.oss-cn-shanghai.aliyuncs.com/1d/51/20250226/72e40b15/a8624ac4-cdf8-433b-9803-d273f99638f1.mp4?Expires=1740648892&OSSAccessKeyId=LTAI5tQZd8AEcZX6KZV4G8qL&Signature=qkCtiHjGJXSoHrHqmtV%2FRqCHziE%3D"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "easy showAnything",
+      "pos": [
+        -1186.275390625,
+        2335.585205078125
+      ],
+      "size": [
+        210,
+        76
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 9,
+          "shape": 7,
+          "label": "输入任何"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": [],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      },
+      "widgets_values": [
+        "https://raw.githubusercontent.com/penposs/image/main/images/wanx_1740562663.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "WanAPI_ImageUploader",
+      "pos": [
+        -1211.8145751953125,
+        2041.9786376953125
+      ],
+      "size": [
+        315,
         130
       ],
       "flags": {},
@@ -372,7 +358,7 @@
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 1,
+          "link": 8,
           "label": "images"
         }
       ],
@@ -381,14 +367,15 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            2
+            9,
+            10
           ],
           "slot_index": 0,
           "label": "STRING"
         }
       ],
       "properties": {
-        "Node name for S&R": "WanAPIImageUploader"
+        "Node name for S&R": "WanAPI_ImageUploader"
       },
       "widgets_values": [
         "GitHub",
@@ -396,55 +383,123 @@
         "main",
         ""
       ]
+    },
+    {
+      "id": 8,
+      "type": "WanAPI_Image2Video",
+      "pos": [
+        -882.2426147460938,
+        1982.205322265625
+      ],
+      "size": [
+        400,
+        246
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_url",
+          "type": "STRING",
+          "link": 10,
+          "widget": {
+            "name": "image_url"
+          },
+          "label": "image_url"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video_url",
+          "type": "STRING",
+          "links": [
+            11,
+            12
+          ],
+          "label": "video_url",
+          "slot_index": 0
+        },
+        {
+          "name": "history_info",
+          "type": "STRING",
+          "links": [
+            13
+          ],
+          "slot_index": 1,
+          "label": "history_info"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "WanAPI_Image2Video"
+      },
+      "widgets_values": [
+        "",
+        "wanx2.1-i2v-plus",
+        5,
+        "",
+        "日漫风格,镜头跟随黑雾，黑雾快速旋转，击中女人，女人倒地，口吐红色液体",
+        1809922714,
+        "randomize",
+        "True"
+      ]
     }
   ],
   "links": [
     [
-      1,
-      1,
+      3,
+      7,
       0,
-      2,
+      4,
       0,
       "IMAGE"
     ],
     [
-      2,
-      2,
+      8,
+      1,
+      0,
+      9,
+      0,
+      "IMAGE"
+    ],
+    [
+      9,
+      9,
       0,
       3,
       0,
       "*"
     ],
     [
-      3,
-      7,
+      10,
+      9,
       0,
-      4,
-      0,
-      "IMAGE"
-    ],
-    [
-      4,
-      3,
-      0,
-      5,
+      8,
       0,
       "STRING"
     ],
     [
-      5,
-      5,
-      0,
-      6,
-      0,
-      "STRING"
-    ],
-    [
-      6,
-      5,
+      11,
+      8,
       0,
       7,
       2,
+      "STRING"
+    ],
+    [
+      12,
+      8,
+      0,
+      6,
+      0,
+      "STRING"
+    ],
+    [
+      13,
+      8,
+      1,
+      10,
+      0,
       "STRING"
     ]
   ],
@@ -452,10 +507,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1,
+      "scale": 0.7513148009015777,
       "offset": [
-        1584.863449468461,
-        -1739.5341228629436
+        2119.556744719321,
+        -1601.417461443435
       ]
     },
     "groupNodes": {},
