@@ -35,7 +35,11 @@ pip install -r Comfyui_wan_api/requirements.txt
      - Token 名称： WanAPI
      - 有效期：永不过期
      - 权限：勾选 repo
-   - 复制并粘贴 Token 方法二：手动配置
+     - ![312bee3b0255d083c09f009b20e188b](https://github.com/user-attachments/assets/4c0fd3b9-29f6-43eb-9f3c-ef9c7d4bea22)
+![5f471eb39af0bbaea19bd88b6e03bf3](https://github.com/user-attachments/assets/798b65ec-0b56-4fce-acde-e5c97522c6c7)
+
+   - 复制并粘贴 Token
+   - 方法二：手动配置
 1. 访问： https://github.com/settings/tokens/new
 2. 创建 Token
 3. 创建公开仓库
