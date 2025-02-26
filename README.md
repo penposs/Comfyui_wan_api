@@ -26,8 +26,9 @@ pip install -r Comfyui_wan_api/requirements.txt
 ```
 
 ## 初始配置
-### 1. 创建 GitHub 仓库 方法一：自动配置
-1. 运行自动配置脚本：
+### 1. 创建 GitHub 图床
+方法一：自动配置（新手自动）
+1. 运行自动配置脚本setup_github.bat：
 2. 配置步骤：
    - 输入 GitHub 邮箱
    - 创建 Token：
@@ -90,5 +91,9 @@ pip install -r Comfyui_wan_api/requirements.txt
 ## 联系方式
 - GitHub Issues
 - Email: 2363939182@qq.com
+  please buy me a coffee 3Q！
+- ![f4dbacc3915c1240ada06333d04f0ce](https://github.com/user-attachments/assets/f815a86f-64aa-46bc-92e8-8488e203c112)
+
+- 
 ## 许可证
 MIT License
