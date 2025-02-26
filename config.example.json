@@ -1,0 +1,7 @@
+{
+    "DASHSCOPE_API_KEY": "your-dashscope-api-key",
+    "GITHUB_TOKEN": "your-github-personal-access-token",
+    "GITHUB_REPO": "username/repo-name",
+    "GITHUB_BRANCH": "main",
+    "MAX_CACHE_SIZE": 50
+}
