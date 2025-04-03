@@ -1,0 +1,15 @@
+[project]
+name = "wan_api"
+description = "Free trial of Tongyi Wanxiang wan2.1 model, this is a batch implementation of wan2.1 API, providing batch processing for your short video production."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["requests>=2.25.0", "Pillow>=9.0.0", "numpy>=1.20.0"]
+
+[project.urls]
+Repository = "https://github.com/penposs/Comfyui_wan_api"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_wan_api"
+Icon = ""
